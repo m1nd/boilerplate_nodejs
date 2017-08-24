@@ -1,0 +1,27 @@
+{
+  "name": "klimov",
+  "version": "1.0.0",
+  "description": "Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["template", "js"],
+  "author": "m1nd",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "prettier": "^1.5.3"
+  },
+  "dependencies": {},
+  "eslintConfig": {
+    "extends": ["airbnb-base", "prettier"]
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
